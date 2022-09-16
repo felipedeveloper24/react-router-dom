@@ -1,15 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
+import Navegacion from "./navegacion";
 
 export const Inicio = ()=>{
     return(
         <div>
-            <nav>
-                <ul>
-                    <li></li>
-                </ul>
-            </nav>
-            <Link to="/articulos" >Ir a articulos</Link>
+            <Navegacion/>
+            <h1>Estamos en inicio</h1>
+          
         </div>
     )
 };
